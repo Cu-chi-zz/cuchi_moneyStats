@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap'); /* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap'); /* font-family: 'Nunito Sans', sans-serif; */
+
+body {
+    overflow: hidden;
+    display: none;
+}
+
+#container  {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -5%);
+    height: 200px;
+    width: 400px;
+    background: #272838;
+    overflow: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 2px #F9F8F8;
+    padding: 10px;
+}
+
+.button {
+    background: #272838;
+    font-family: 'Ubuntu', sans-serif;
+    color: #F9F8F8;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    padding: 2px 10px;
+    border: none;
+    transition: all 0.1s linear 0s;
+}
+
+.button:hover {
+    text-shadow:1px 1px 5px #F9F8F8, 1px 1px 5px #F9F8F8;
+}
+
+#exitbtn {
+    bottom: 10px;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #F9F8F8;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+
+#title {
+    font-family: 'Ubuntu', sans-serif;
+    color: #F9F8F8;
+    font-size: 48px;
+    position: absolute;
+    margin: 0px;
+    border-bottom: 2px solid #F9F8F8;
+}
+
+#stats {
+    margin-top: 100px;
+}
+
+#subtitle {
+    margin-top: 60px;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
